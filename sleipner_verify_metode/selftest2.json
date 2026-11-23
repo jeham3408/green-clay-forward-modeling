@@ -1,0 +1,10 @@
+{
+ "normal_incidence_err": 6.938893903907228e-17,
+ "energy_flux_max_err": 1.2212453270876722e-15,
+ "energy_cases": 1895,
+ "aki_richards_max_abs_diff_2pct_contrast": 8.190202000969357e-05,
+ "aki_richards_typical_R": 0.006494711381352282,
+ "swap_sign_err": 2.220446049250313e-16,
+ "max_abs_diff_vs_experiment_closed_form": 1.5543122344752192e-15,
+ "n_postcritical_in_that_test": 435
+}

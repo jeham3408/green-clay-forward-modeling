@@ -1,0 +1,192 @@
+{
+ "model": [
+  {
+   "offset": 0,
+   "angle_in_water_deg": 0.1,
+   "measured": -0.72,
+   "theory": -0.728,
+   "measured_over_theory": 0.988,
+   "lag_ms": 109.0,
+   "theory_lag_ms": 109.5,
+   "ncc": 0.992,
+   "rms_p0_over_rms_p8_after_seabed": 0.008690192434403086
+  },
+  {
+   "offset": 200,
+   "angle_in_water_deg": 10.2,
+   "measured": -0.723,
+   "theory": -0.729,
+   "measured_over_theory": 0.991,
+   "lag_ms": 107.0,
+   "theory_lag_ms": 107.4,
+   "ncc": 0.992,
+   "rms_p0_over_rms_p8_after_seabed": 0.12260744961242126
+  },
+  {
+   "offset": 400,
+   "angle_in_water_deg": 19.6,
+   "measured": -0.733,
+   "theory": -0.734,
+   "measured_over_theory": 0.999,
+   "lag_ms": 102.0,
+   "theory_lag_ms": 102.2,
+   "ncc": 0.996,
+   "rms_p0_over_rms_p8_after_seabed": 0.13335754992413526
+  },
+  {
+   "offset": 500,
+   "angle_in_water_deg": 23.7,
+   "measured": -0.722,
+   "theory": -0.738,
+   "measured_over_theory": 0.979,
+   "lag_ms": 99.0,
+   "theory_lag_ms": 99.0,
+   "ncc": 0.999,
+   "rms_p0_over_rms_p8_after_seabed": 0.1561448888309886
+  },
+  {
+   "offset": 600,
+   "angle_in_water_deg": 27.4,
+   "measured": -0.696,
+   "theory": -0.744,
+   "measured_over_theory": 0.936,
+   "lag_ms": 96.0,
+   "theory_lag_ms": 95.7,
+   "ncc": 0.999,
+   "rms_p0_over_rms_p8_after_seabed": 0.11669953608681498
+  },
+  {
+   "offset": 700,
+   "angle_in_water_deg": 30.8,
+   "measured": -0.659,
+   "theory": -0.753,
+   "measured_over_theory": 0.876,
+   "lag_ms": 93.0,
+   "theory_lag_ms": 92.5,
+   "ncc": 0.995,
+   "rms_p0_over_rms_p8_after_seabed": 0.077504764594713
+  },
+  {
+   "offset": 800,
+   "angle_in_water_deg": 33.7,
+   "measured": -0.621,
+   "theory": -0.764,
+   "measured_over_theory": 0.813,
+   "lag_ms": 90.0,
+   "theory_lag_ms": 89.4,
+   "ncc": 0.994,
+   "rms_p0_over_rms_p8_after_seabed": 0.06524935054909671
+  }
+ ],
+ "arithmetic": [
+  {
+   "offset": 0,
+   "angle_in_water_deg": 0.1,
+   "measured": -0.722,
+   "theory": -0.728,
+   "measured_over_theory": 0.991,
+   "lag_ms": 109.0,
+   "theory_lag_ms": 109.5,
+   "ncc": 0.991,
+   "rms_p0_over_rms_p8_after_seabed": 1.368742727427276e-06
+  },
+  {
+   "offset": 200,
+   "angle_in_water_deg": 10.2,
+   "measured": -0.712,
+   "theory": -0.729,
+   "measured_over_theory": 0.976,
+   "lag_ms": 107.0,
+   "theory_lag_ms": 107.4,
+   "ncc": 0.99,
+   "rms_p0_over_rms_p8_after_seabed": 2.4162634640087415e-06
+  },
+  {
+   "offset": 400,
+   "angle_in_water_deg": 19.6,
+   "measured": -0.693,
+   "theory": -0.734,
+   "measured_over_theory": 0.945,
+   "lag_ms": 102.0,
+   "theory_lag_ms": 102.2,
+   "ncc": 0.988,
+   "rms_p0_over_rms_p8_after_seabed": 1.583735624091186e-06
+  },
+  {
+   "offset": 500,
+   "angle_in_water_deg": 23.7,
+   "measured": -0.666,
+   "theory": -0.738,
+   "measured_over_theory": 0.903,
+   "lag_ms": 99.0,
+   "theory_lag_ms": 99.0,
+   "ncc": 0.99,
+   "rms_p0_over_rms_p8_after_seabed": 1.979835204978622e-06
+  },
+  {
+   "offset": 600,
+   "angle_in_water_deg": 27.4,
+   "measured": -0.629,
+   "theory": -0.744,
+   "measured_over_theory": 0.846,
+   "lag_ms": 96.0,
+   "theory_lag_ms": 95.7,
+   "ncc": 0.993,
+   "rms_p0_over_rms_p8_after_seabed": 2.1168511183085266e-06
+  },
+  {
+   "offset": 700,
+   "angle_in_water_deg": 30.8,
+   "measured": -0.585,
+   "theory": -0.753,
+   "measured_over_theory": 0.777,
+   "lag_ms": 93.0,
+   "theory_lag_ms": 92.5,
+   "ncc": 0.993,
+   "rms_p0_over_rms_p8_after_seabed": 1.3945063371125183e-06
+  },
+  {
+   "offset": 800,
+   "angle_in_water_deg": 33.7,
+   "measured": -0.539,
+   "theory": -0.764,
+   "measured_over_theory": 0.705,
+   "lag_ms": 90.0,
+   "theory_lag_ms": 89.4,
+   "ncc": 0.99,
+   "rms_p0_over_rms_p8_after_seabed": 9.314130799597294e-07
+  }
+ ],
+ "model_vs_arithmetic": [
+  {
+   "offset": 0,
+   "primary_rms_diff_rel": 0.0007794508949699782,
+   "multiples_rms_diff_rel": 0.014452046106992002,
+   "multiples_rms_ratio": 0.9987484274769263
+  },
+  {
+   "offset": 200,
+   "primary_rms_diff_rel": 0.006808815348875641,
+   "multiples_rms_diff_rel": 0.1385074069430595,
+   "multiples_rms_ratio": 1.0128955751908721
+  },
+  {
+   "offset": 400,
+   "primary_rms_diff_rel": 0.023890038570771162,
+   "multiples_rms_diff_rel": 0.31610778034350956,
+   "multiples_rms_ratio": 1.0314594514704774
+  },
+  {
+   "offset": 600,
+   "primary_rms_diff_rel": 0.04652711291303513,
+   "multiples_rms_diff_rel": 0.15342593315933442,
+   "multiples_rms_ratio": 1.0923696206763778
+  },
+  {
+   "offset": 800,
+   "primary_rms_diff_rel": 0.06961680040924667,
+   "multiples_rms_diff_rel": 0.20017739407909924,
+   "multiples_rms_ratio": 1.1272795778477005
+  }
+ ]
+}

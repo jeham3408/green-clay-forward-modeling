@@ -1,0 +1,125 @@
+{
+ "model": {
+  "array_asym_b": 0.0,
+  "array_asym_lam": 0.0,
+  "array_asym_mu": 0.0,
+  "p0_over_p8_max_by_offset": {
+   "0": 0.001109723119663574,
+   "100": 0.08311463809948329,
+   "200": 0.13951946029762158,
+   "300": 0.021909116760966497
+  },
+  "t_xx (odd, nodes)": {
+   "max_violation_over_field_max": 0.17379381456895018,
+   "depth_of_max_violation_m": 146.0,
+   "violation_in_water_0_79m": 0.15979132620126485,
+   "violation_at_81m_rows": 0.09944992722029068
+  },
+  "t_zz (odd, nodes)": {
+   "max_violation_over_field_max": 0.17109615903426348,
+   "depth_of_max_violation_m": 146.0,
+   "violation_in_water_0_79m": 0.15423574147053448,
+   "violation_at_81m_rows": 0.0974704168332209
+  },
+  "v_x (odd, nodes in z)": {
+   "max_violation_over_field_max": 0.46586198724996214,
+   "depth_of_max_violation_m": 152.0,
+   "violation_in_water_0_79m": 0.154014502055609,
+   "violation_at_81m_rows": 0.24451704247469822
+  },
+  "v_z (even, half nodes)": {
+   "max_violation_over_field_max": 0.2735396790621153,
+   "depth_of_max_violation_m": 143.0,
+   "violation_in_water_0_79m": 0.17894492156506128,
+   "violation_at_81m_rows": 0.12271708313173307
+  },
+  "t_xz (even, half nodes)": {
+   "max_violation_over_field_max": 1.0054575039698364,
+   "depth_of_max_violation_m": 153.0,
+   "violation_in_water_0_79m": 0.0,
+   "violation_at_81m_rows": 0.28849411007434367
+  }
+ },
+ "arithmetic": {
+  "array_asym_b": 0.0,
+  "array_asym_lam": 0.0,
+  "array_asym_mu2": 0.0,
+  "p0_over_p8_max_by_offset": {
+   "0": 1.2989811207454628e-07,
+   "100": 8.050222716323088e-07,
+   "200": 8.524693697330323e-07,
+   "300": 6.367407675883129e-06
+  },
+  "t_xx (odd, nodes)": {
+   "max_violation_over_field_max": 1.2802986365508911e-06,
+   "depth_of_max_violation_m": 130.0,
+   "violation_in_water_0_79m": 8.509677235728881e-07,
+   "violation_at_81m_rows": 8.478900826196407e-07
+  },
+  "t_zz (odd, nodes)": {
+   "max_violation_over_field_max": 1.1101433613403053e-06,
+   "depth_of_max_violation_m": 138.0,
+   "violation_in_water_0_79m": 8.273709957158879e-07,
+   "violation_at_81m_rows": 8.318594459638946e-07
+  },
+  "v_x (odd, nodes in z)": {
+   "max_violation_over_field_max": 1.9727022715536276e-06,
+   "depth_of_max_violation_m": 8.0,
+   "violation_in_water_0_79m": 1.9727022715536276e-06,
+   "violation_at_81m_rows": 5.823806244374739e-07
+  },
+  "v_z (even, half nodes)": {
+   "max_violation_over_field_max": 5.125076371935076e-06,
+   "depth_of_max_violation_m": 17.0,
+   "violation_in_water_0_79m": 5.125076371935076e-06,
+   "violation_at_81m_rows": 1.2330021066042436e-06
+  },
+  "t_xz (even, half nodes)": {
+   "max_violation_over_field_max": 1.3224224946914642e-06,
+   "depth_of_max_violation_m": 93.0,
+   "violation_in_water_0_79m": 0.0,
+   "violation_at_81m_rows": 1.2849449341131635e-06
+  }
+ },
+ "harmonic": {
+  "array_asym_b": 0.0,
+  "array_asym_lam": 0.0,
+  "array_asym_mu2": 0.0,
+  "p0_over_p8_max_by_offset": {
+   "0": NaN,
+   "100": NaN,
+   "200": NaN,
+   "300": NaN
+  },
+  "t_xx (odd, nodes)": {
+   "max_violation_over_field_max": NaN,
+   "depth_of_max_violation_m": 2.0,
+   "violation_in_water_0_79m": NaN,
+   "violation_at_81m_rows": NaN
+  },
+  "t_zz (odd, nodes)": {
+   "max_violation_over_field_max": NaN,
+   "depth_of_max_violation_m": 2.0,
+   "violation_in_water_0_79m": NaN,
+   "violation_at_81m_rows": NaN
+  },
+  "v_x (odd, nodes in z)": {
+   "max_violation_over_field_max": NaN,
+   "depth_of_max_violation_m": 2.0,
+   "violation_in_water_0_79m": NaN,
+   "violation_at_81m_rows": NaN
+  },
+  "v_z (even, half nodes)": {
+   "max_violation_over_field_max": NaN,
+   "depth_of_max_violation_m": 1.0,
+   "violation_in_water_0_79m": NaN,
+   "violation_at_81m_rows": NaN
+  },
+  "t_xz (even, half nodes)": {
+   "max_violation_over_field_max": NaN,
+   "depth_of_max_violation_m": 1.0,
+   "violation_in_water_0_79m": NaN,
+   "violation_at_81m_rows": NaN
+  }
+ }
+}

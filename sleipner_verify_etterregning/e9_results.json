@@ -1,0 +1,57 @@
+{
+ "validation_primary_FS_vs_G": [
+  {
+   "offset": 0,
+   "corr": 0.9999999838128211,
+   "amp_ratio_FS_over_G": 0.999698863053848,
+   "rms_diff_rel": 0.0002936836288759931
+  },
+  {
+   "offset": 200,
+   "corr": 0.9999997434544272,
+   "amp_ratio_FS_over_G": 0.9992119797053214,
+   "rms_diff_rel": 0.0010024254086113066
+  },
+  {
+   "offset": 400,
+   "corr": 0.9999953942852581,
+   "amp_ratio_FS_over_G": 0.9975082809102891,
+   "rms_diff_rel": 0.0037027660262298518
+  },
+  {
+   "offset": 600,
+   "corr": 0.999979511180335,
+   "amp_ratio_FS_over_G": 0.9943162511805832,
+   "rms_diff_rel": 0.007698147672253564
+  },
+  {
+   "offset": 800,
+   "corr": 0.9999472921269297,
+   "amp_ratio_FS_over_G": 0.9918267514110857,
+   "rms_diff_rel": 0.01237383446255105
+  },
+  {
+   "offset": 900,
+   "corr": 0.9999251748389871,
+   "amp_ratio_FS_over_G": 0.9921235842050363,
+   "rms_diff_rel": 0.014828297988851049
+  }
+ ],
+ "full_model_seabed_reflection_FS_vs_G": [
+  {
+   "offset": 150,
+   "corr": 0.9923169007495867,
+   "amp_ratio_FS_over_G": 1.0173822745450596
+  },
+  {
+   "offset": 300,
+   "corr": 0.997541793092352,
+   "amp_ratio_FS_over_G": 0.9064600177569129
+  },
+  {
+   "offset": 450,
+   "corr": 0.9855568391503359,
+   "amp_ratio_FS_over_G": 0.8618214355115738
+  }
+ ]
+}

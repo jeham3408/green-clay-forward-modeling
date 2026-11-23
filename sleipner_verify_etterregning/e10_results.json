@@ -1,0 +1,266 @@
+{
+ "parameter_access": {
+  "v_x update": {
+   "b": [
+    "b(x + h_x, y)",
+    "b(x, y)"
+   ],
+   "damp": [
+    "damp(x + h_x, y)",
+    "damp(x, y)"
+   ]
+  },
+  "v_z update": {
+   "b": [
+    "b(x, y + h_y)",
+    "b(x, y)"
+   ],
+   "damp": [
+    "damp(x, y + h_y)",
+    "damp(x, y)"
+   ]
+  },
+  "t_xx update": {
+   "lam": [
+    "lam(x, y)"
+   ],
+   "mu": [
+    "mu(x, y)"
+   ],
+   "damp": [
+    "damp(x, y)"
+   ]
+  },
+  "t_zz update": {
+   "lam": [
+    "lam(x, y)"
+   ],
+   "mu": [
+    "mu(x, y)"
+   ],
+   "damp": [
+    "damp(x, y)"
+   ]
+  },
+  "t_xz update": {
+   "mu": [
+    "mu(x + h_x, y + h_y)",
+    "mu(x + h_x, y)",
+    "mu(x, y + h_y)",
+    "mu(x, y)"
+   ],
+   "damp": [
+    "damp(x + h_x, y + h_y)",
+    "damp(x + h_x, y)",
+    "damp(x, y + h_y)",
+    "damp(x, y)"
+   ]
+  }
+ },
+ "array_symmetry": {
+  "b": 0.0,
+  "lam": 0.0,
+  "mu": 0.0,
+  "damp": 0.0
+ },
+ "water": [
+  {
+   "offset": 0,
+   "max_p0_over_max_p8": 1.730667016489885e-07,
+   "t_of_max_p0_ms": 34.666670193142366,
+   "max_antisym_over_max_p8": 3.9000054210075354e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.001816270743831299,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.002820478362450981
+  },
+  {
+   "offset": 100,
+   "max_p0_over_max_p8": 2.623840195086655e-06,
+   "t_of_max_p0_ms": 146.13334819878474,
+   "max_antisym_over_max_p8": 2.4514168745257694e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 2.9136755780873225e-05,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 3.624015342458691e-05
+  },
+  {
+   "offset": 200,
+   "max_p0_over_max_p8": 4.779035898895261e-06,
+   "t_of_max_p0_ms": 240.53335780164932,
+   "max_antisym_over_max_p8": 6.136590163859266e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.053478160059513e-05,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.5487216948240693e-05
+  },
+  {
+   "offset": 300,
+   "max_p0_over_max_p8": 7.118600897045359e-06,
+   "t_of_max_p0_ms": 416.53337570529516,
+   "max_antisym_over_max_p8": 9.386981154423559e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.3140363226440519e-05,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.8449659682960136e-05
+  },
+  {
+   "offset": 400,
+   "max_p0_over_max_p8": 8.810854371339225e-06,
+   "t_of_max_p0_ms": 468.8000476888021,
+   "max_antisym_over_max_p8": 1.49739642452261e-05,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.6864842829080483e-05,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 2.332664655782601e-05
+  },
+  {
+   "offset": 500,
+   "max_p0_over_max_p8": 1.1080695090266816e-05,
+   "t_of_max_p0_ms": 525.8667201605903,
+   "max_antisym_over_max_p8": 1.7038476107650377e-05,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.7277628576661283e-05,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 2.3469632129058596e-05
+  }
+ ],
+ "seabed_elastic": [
+  {
+   "offset": 0,
+   "max_p0_over_max_p8": 0.0011097318794413748,
+   "t_of_max_p0_ms": 140.80001432291667,
+   "max_antisym_over_max_p8": 0.0008250339592972034,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.008745701542453589,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.006527428487215183
+  },
+  {
+   "offset": 100,
+   "max_p0_over_max_p8": 0.08311469167406978,
+   "t_of_max_p0_ms": 155.20001578776044,
+   "max_antisym_over_max_p8": 0.04536157085866648,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.07422605089627043,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.05226976589632133
+  },
+  {
+   "offset": 200,
+   "max_p0_over_max_p8": 0.1395189771795667,
+   "t_of_max_p0_ms": 201.6000205078125,
+   "max_antisym_over_max_p8": 0.1247856678131187,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.1250240417040093,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.13198087488384844
+  },
+  {
+   "offset": 300,
+   "max_p0_over_max_p8": 0.12125430246269793,
+   "t_of_max_p0_ms": 258.6666929796007,
+   "max_antisym_over_max_p8": 0.15760253323753032,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.10918004828051726,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.15182064216207003
+  },
+  {
+   "offset": 400,
+   "max_p0_over_max_p8": 0.14956490284361085,
+   "t_of_max_p0_ms": 320.0000325520834,
+   "max_antisym_over_max_p8": 0.21354374183422709,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.13458217717887352,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.19749820016805658
+  },
+  {
+   "offset": 500,
+   "max_p0_over_max_p8": 0.22364659560954234,
+   "t_of_max_p0_ms": 382.4000388997396,
+   "max_antisym_over_max_p8": 0.36219827160400014,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 0.16363648357230384,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 0.2683510326788675
+  }
+ ],
+ "seabed_fluid": [
+  {
+   "offset": 0,
+   "max_p0_over_max_p8": 1.730667016489885e-07,
+   "t_of_max_p0_ms": 34.666670193142366,
+   "max_antisym_over_max_p8": 3.9000054210075354e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.0663653242424063e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.656503161381225e-06
+  },
+  {
+   "offset": 100,
+   "max_p0_over_max_p8": 5.532750292482118e-07,
+   "t_of_max_p0_ms": 140.80001432291667,
+   "max_antisym_over_max_p8": 6.910803744549901e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 8.153309109013996e-07,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.3123212076298015e-06
+  },
+  {
+   "offset": 200,
+   "max_p0_over_max_p8": 5.01035663939721e-07,
+   "t_of_max_p0_ms": 251.73335894097224,
+   "max_antisym_over_max_p8": 7.232400285390515e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 8.81321509793609e-07,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.3238059584805827e-06
+  },
+  {
+   "offset": 300,
+   "max_p0_over_max_p8": 5.815818944432889e-07,
+   "t_of_max_p0_ms": 325.33336642795143,
+   "max_antisym_over_max_p8": 8.927503885855486e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 8.915282409025658e-07,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.2238597960554162e-06
+  },
+  {
+   "offset": 400,
+   "max_p0_over_max_p8": 4.894686345864266e-07,
+   "t_of_max_p0_ms": 330.6667003038195,
+   "max_antisym_over_max_p8": 9.099111958321953e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 7.931932897988499e-07,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.155566260078031e-06
+  },
+  {
+   "offset": 500,
+   "max_p0_over_max_p8": 7.85025969290981e-07,
+   "t_of_max_p0_ms": 444.26671185980905,
+   "max_antisym_over_max_p8": 1.0947630172693288e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 9.347176630016522e-07,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.2946320765316946e-06
+  }
+ ],
+ "seabed_density_only": [
+  {
+   "offset": 0,
+   "max_p0_over_max_p8": 1.730667016489885e-07,
+   "t_of_max_p0_ms": 34.666670193142366,
+   "max_antisym_over_max_p8": 3.9000054210075354e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.2244125840939035e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.8022718001665661e-06
+  },
+  {
+   "offset": 100,
+   "max_p0_over_max_p8": 7.203817666829789e-07,
+   "t_of_max_p0_ms": 160.53334966362848,
+   "max_antisym_over_max_p8": 9.056842531572389e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.1334655695417055e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 1.6736919152660833e-06
+  },
+  {
+   "offset": 200,
+   "max_p0_over_max_p8": 6.704607769666486e-07,
+   "t_of_max_p0_ms": 192.5333529188368,
+   "max_antisym_over_max_p8": 9.911986226770385e-07,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.367625046614588e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 2.000030390007127e-06
+  },
+  {
+   "offset": 300,
+   "max_p0_over_max_p8": 1.0922516376537971e-06,
+   "t_of_max_p0_ms": 360.5333700086806,
+   "max_antisym_over_max_p8": 1.2855410060881244e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 1.7903023056152003e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 2.611051955998218e-06
+  },
+  {
+   "offset": 400,
+   "max_p0_over_max_p8": 1.2481076653364575e-06,
+   "t_of_max_p0_ms": 529.6000538736979,
+   "max_antisym_over_max_p8": 2.0745010037496273e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 2.239166560520238e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 3.443643808676246e-06
+  },
+  {
+   "offset": 500,
+   "max_p0_over_max_p8": 1.9289023647793995e-06,
+   "t_of_max_p0_ms": 547.7333890516494,
+   "max_antisym_over_max_p8": 3.0475131018750346e-06,
+   "rms_p0_over_rms_p8_after_seabed_arrival": 2.6624097253057676e-06,
+   "rms_antisym_over_rms_p8_after_seabed_arrival": 3.922673650509026e-06
+  }
+ ]
+}

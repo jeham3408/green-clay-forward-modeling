@@ -1,0 +1,102 @@
+{
+ "vs_effect_1380_1500_m07": {
+  "nea": {
+   "corr_fd_vs_zoeppritz": 0.9822199154454208,
+   "strength_fd_over_zoeppritz": 0.007588623937698886,
+   "change_over_level_fd": 0.013126127525818055,
+   "level_ratio_fd": 0.9981245094413879
+  },
+  "mid": {
+   "corr_fd_vs_zoeppritz": 0.9956395185946899,
+   "strength_fd_over_zoeppritz": 0.007203428759953217,
+   "change_over_level_fd": 0.07998015997227903,
+   "level_ratio_fd": 0.9947012593811835
+  },
+  "far": {
+   "corr_fd_vs_zoeppritz": 0.9977052422317125,
+   "strength_fd_over_zoeppritz": 0.006748256570552225,
+   "change_over_level_fd": 0.18122497325053732,
+   "level_ratio_fd": 0.9778614995963034
+  }
+ },
+ "vs_effect_1380_1500_m15": {
+  "nea": {
+   "corr_fd_vs_zoeppritz": 0.9788816049448117,
+   "strength_fd_over_zoeppritz": 0.007681583541405726,
+   "change_over_level_fd": 0.027424297907465384,
+   "level_ratio_fd": 0.9948552648822085
+  },
+  "mid": {
+   "corr_fd_vs_zoeppritz": 0.9921476451596966,
+   "strength_fd_over_zoeppritz": 0.007218394126832004,
+   "change_over_level_fd": 0.16506286153778485,
+   "level_ratio_fd": 0.9875102007108019
+  },
+  "far": {
+   "corr_fd_vs_zoeppritz": 0.9952001034473015,
+   "strength_fd_over_zoeppritz": 0.006718017347692925,
+   "change_over_level_fd": 0.3705252909908185,
+   "level_ratio_fd": 0.9875281897906066
+  }
+ },
+ "vs_effect_1380_1500_m20": {
+  "nea": {
+   "corr_fd_vs_zoeppritz": 0.9717319487737458,
+   "strength_fd_over_zoeppritz": 0.007707730094836479,
+   "change_over_level_fd": 0.035832892331400835,
+   "level_ratio_fd": 0.9914964550327888
+  },
+  "mid": {
+   "corr_fd_vs_zoeppritz": 0.9867641807048748,
+   "strength_fd_over_zoeppritz": 0.00719841220934583,
+   "change_over_level_fd": 0.2140126108430977,
+   "level_ratio_fd": 0.9846383855703705
+  },
+  "far": {
+   "corr_fd_vs_zoeppritz": 0.9933889686103067,
+   "strength_fd_over_zoeppritz": 0.006678326663068322,
+   "change_over_level_fd": 0.4778690512706111,
+   "level_ratio_fd": 1.0156290741836465
+  }
+ },
+ "far_rms_zone_over_ref_by_case": {
+  "trend": 1.1861581202220508,
+  "m07": 1.1616685624364815,
+  "m15": 1.1708233852558216,
+  "m20": 1.2000863549927228
+ },
+ "far_near_per_reflector_G_by_case": {
+  "trend": {
+   "1433": 0.629,
+   "1452": 1.195,
+   "1472": 0.838,
+   "1488": 0.71,
+   "1534": 0.615
+  },
+  "m07": {
+   "1433": 0.68,
+   "1452": 1.144,
+   "1472": 0.814,
+   "1488": 0.694,
+   "1534": 0.623
+  },
+  "m15": {
+   "1433": 0.767,
+   "1452": 1.115,
+   "1472": 0.794,
+   "1488": 0.68,
+   "1534": 0.628
+  },
+  "m20": {
+   "1433": 0.832,
+   "1452": 1.112,
+   "1472": 0.793,
+   "1488": 0.684,
+   "1534": 0.631
+  }
+ },
+ "zone_over_ref_G_vs_C_trend": {
+  "G": 1.0673589604395624,
+  "C": 0.8949157155198811
+ }
+}

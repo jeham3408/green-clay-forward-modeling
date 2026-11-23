@@ -1,0 +1,97 @@
+{
+ "v_x": {
+  "lhs_staggered": "(0, 1, 0)",
+  "t_xx_offsets_in_z_units_of_h": [
+   0.0
+  ],
+  "t_xy_offsets_in_z_units_of_h": [
+   -3.5,
+   -2.5,
+   -1.5,
+   -0.5,
+   0.5,
+   1.5,
+   2.5,
+   3.5
+  ],
+  "v_x_offsets_in_z_units_of_h": [
+   0.0
+  ]
+ },
+ "v_y": {
+  "lhs_staggered": "(0, 0, 1)",
+  "t_yy_offsets_in_z_units_of_h": [
+   -3.0,
+   -2.0,
+   -1.0,
+   0.0,
+   1.0,
+   2.0,
+   3.0,
+   4.0
+  ],
+  "t_xy_offsets_in_z_units_of_h": [
+   0.5
+  ],
+  "v_y_offsets_in_z_units_of_h": [
+   0.5
+  ]
+ },
+ "t_xx": {
+  "lhs_staggered": "(0, 0, 0)",
+  "t_xx_offsets_in_z_units_of_h": [
+   0.0
+  ],
+  "v_x_offsets_in_z_units_of_h": [
+   0.0
+  ],
+  "v_y_offsets_in_z_units_of_h": [
+   -3.5,
+   -2.5,
+   -1.5,
+   -0.5,
+   0.5,
+   1.5,
+   2.5,
+   3.5
+  ]
+ },
+ "t_yy": {
+  "lhs_staggered": "(0, 0, 0)",
+  "t_yy_offsets_in_z_units_of_h": [
+   0.0
+  ],
+  "v_x_offsets_in_z_units_of_h": [
+   0.0
+  ],
+  "v_y_offsets_in_z_units_of_h": [
+   -3.5,
+   -2.5,
+   -1.5,
+   -0.5,
+   0.5,
+   1.5,
+   2.5,
+   3.5
+  ]
+ },
+ "t_xy": {
+  "lhs_staggered": "(0, 1, 1)",
+  "t_xy_offsets_in_z_units_of_h": [
+   0.5
+  ],
+  "v_x_offsets_in_z_units_of_h": [
+   -3.0,
+   -2.0,
+   -1.0,
+   0.0,
+   1.0,
+   2.0,
+   3.0,
+   4.0
+  ],
+  "v_y_offsets_in_z_units_of_h": [
+   0.5
+  ]
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "symslip": [
+  {
+   "offset": 0,
+   "angle_in_water_deg": 0.1,
+   "measured": -0.719,
+   "theory": -0.728,
+   "measured_over_theory": 0.987,
+   "lag_ms": 109.0,
+   "theory_lag_ms": 109.5,
+   "ncc": 0.992,
+   "rms_p0_over_rms_p8_after_seabed": 1.376516036587974e-06
+  },
+  {
+   "offset": 200,
+   "angle_in_water_deg": 10.2,
+   "measured": -0.723,
+   "theory": -0.729,
+   "measured_over_theory": 0.991,
+   "lag_ms": 107.0,
+   "theory_lag_ms": 107.4,
+   "ncc": 0.993,
+   "rms_p0_over_rms_p8_after_seabed": 1.9219394176857108e-06
+  },
+  {
+   "offset": 400,
+   "angle_in_water_deg": 19.6,
+   "measured": -0.734,
+   "theory": -0.734,
+   "measured_over_theory": 1.001,
+   "lag_ms": 102.0,
+   "theory_lag_ms": 102.2,
+   "ncc": 0.998,
+   "rms_p0_over_rms_p8_after_seabed": 1.4868023779043721e-06
+  },
+  {
+   "offset": 500,
+   "angle_in_water_deg": 23.7,
+   "measured": -0.721,
+   "theory": -0.738,
+   "measured_over_theory": 0.977,
+   "lag_ms": 99.0,
+   "theory_lag_ms": 99.0,
+   "ncc": 1.0,
+   "rms_p0_over_rms_p8_after_seabed": 1.7751125556115115e-06
+  },
+  {
+   "offset": 600,
+   "angle_in_water_deg": 27.4,
+   "measured": -0.693,
+   "theory": -0.744,
+   "measured_over_theory": 0.932,
+   "lag_ms": 96.0,
+   "theory_lag_ms": 95.7,
+   "ncc": 0.995,
+   "rms_p0_over_rms_p8_after_seabed": 1.6275104867462009e-06
+  },
+  {
+   "offset": 700,
+   "angle_in_water_deg": 30.8,
+   "measured": -0.656,
+   "theory": -0.753,
+   "measured_over_theory": 0.872,
+   "lag_ms": 92.0,
+   "theory_lag_ms": 92.5,
+   "ncc": 0.99,
+   "rms_p0_over_rms_p8_after_seabed": 1.1785539880608189e-06
+  },
+  {
+   "offset": 800,
+   "angle_in_water_deg": 33.7,
+   "measured": -0.62,
+   "theory": -0.764,
+   "measured_over_theory": 0.811,
+   "lag_ms": 89.0,
+   "theory_lag_ms": 89.4,
+   "ncc": 0.992,
+   "rms_p0_over_rms_p8_after_seabed": 9.428438651484028e-07
+  }
+ ],
+ "experiment_vs_symmetric_slip": [
+  {
+   "offset": 0,
+   "primary_rms_diff_rel": 0.0005416302703078402,
+   "multiples_rms_diff_rel": 0.007267629633501711,
+   "multiples_rms_ratio_experiment_over_symmetric": 1.0006860160458189,
+   "multiples_corr": 0.9999738437559571
+  },
+  {
+   "offset": 200,
+   "primary_rms_diff_rel": 0.004259031590188977,
+   "multiples_rms_diff_rel": 0.061952991855176144,
+   "multiples_rms_ratio_experiment_over_symmetric": 0.9992750525840642,
+   "multiples_corr": 0.9980797835557335
+  },
+  {
+   "offset": 400,
+   "primary_rms_diff_rel": 0.01409207311352206,
+   "multiples_rms_diff_rel": 0.14090650267761323,
+   "multiples_rms_ratio_experiment_over_symmetric": 0.9991750106008508,
+   "multiples_corr": 0.9900648203513998
+  },
+  {
+   "offset": 500,
+   "primary_rms_diff_rel": 0.019497658042108443,
+   "multiples_rms_diff_rel": 0.07345504662366198,
+   "multiples_rms_ratio_experiment_over_symmetric": 0.9897909976195538,
+   "multiples_corr": 0.9973530512932276
+  },
+  {
+   "offset": 600,
+   "primary_rms_diff_rel": 0.024576187381700504,
+   "multiples_rms_diff_rel": 0.05592348496634872,
+   "multiples_rms_ratio_experiment_over_symmetric": 0.9894659152526781,
+   "multiples_corr": 0.9984757084747456
+  },
+  {
+   "offset": 700,
+   "primary_rms_diff_rel": 0.02908093032615907,
+   "multiples_rms_diff_rel": 0.06804603061870011,
+   "multiples_rms_ratio_experiment_over_symmetric": 0.988017747582409,
+   "multiples_corr": 0.9977294888220152
+  },
+  {
+   "offset": 800,
+   "primary_rms_diff_rel": 0.03292976121885893,
+   "multiples_rms_diff_rel": 0.07465328303184098,
+   "multiples_rms_ratio_experiment_over_symmetric": 0.9839833839165771,
+   "multiples_corr": 0.9972978723061343
+  }
+ ]
+}

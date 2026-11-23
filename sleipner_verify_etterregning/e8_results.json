@@ -1,0 +1,60 @@
+{
+ "fluid_solid_energy_max_dev": 1.7763568394002505e-15,
+ "fd_vs_zoeppritz": {
+  "near": {
+   "corr_best": 0.9809191111061782,
+   "shift_ms": -1,
+   "corr_zero_shift": 0.9702763357286022,
+   "vs_effect_m07": {
+    "corr": 0.9705199698169669,
+    "strength_fd_over_zoeppritz": 1.0168386855964857
+   },
+   "vs_effect_m15": {
+    "corr": 0.9672038255797856,
+    "strength_fd_over_zoeppritz": 1.0297728443438756
+   },
+   "vs_effect_m20": {
+    "corr": 0.9602694333163094,
+    "strength_fd_over_zoeppritz": 1.033582977753997
+   }
+  },
+  "mid": {
+   "corr_best": 0.9606328282788946,
+   "shift_ms": -1,
+   "corr_zero_shift": 0.9489063287048797,
+   "vs_effect_m07": {
+    "corr": 0.9293912083747243,
+    "strength_fd_over_zoeppritz": 0.9967963902156705
+   },
+   "vs_effect_m15": {
+    "corr": 0.925880866703265,
+    "strength_fd_over_zoeppritz": 0.9983254008441631
+   },
+   "vs_effect_m20": {
+    "corr": 0.9225447982870228,
+    "strength_fd_over_zoeppritz": 0.9952531266429498
+   }
+  },
+  "far": {
+   "corr_best": 0.8068863081248031,
+   "shift_ms": -1,
+   "corr_zero_shift": 0.7854220803139068,
+   "vs_effect_m07": {
+    "corr": 0.7603977821015565,
+    "strength_fd_over_zoeppritz": 1.1775286403589673
+   },
+   "vs_effect_m15": {
+    "corr": 0.7578411969320749,
+    "strength_fd_over_zoeppritz": 1.1708372508228757
+   },
+   "vs_effect_m20": {
+    "corr": 0.7585339512561171,
+    "strength_fd_over_zoeppritz": 1.1626959372558545
+   }
+  }
+ },
+ "far_over_near_rms_1330_1560": {
+  "fd": 0.8447346313168563,
+  "zoeppritz": 1.189642673172021
+ }
+}

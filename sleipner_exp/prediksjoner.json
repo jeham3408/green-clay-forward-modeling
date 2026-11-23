@@ -1,0 +1,596 @@
+{
+ "hva_dette_er": "Syntetisk 1D-modell av 15/9-13 (Sleipner), elastisk FD. Tallene er sone/referanse: verdien i sonen 1408-1492 ms delt på verdien i referansen (1100-1380 ms og 1560-1900 ms). 1,00 betyr at sonen er som resten.",
+ "maal": {
+  "near_alene, mid_alene, far_alene": "RMS-amplituden til den ene stakken i sonen delt på RMS-amplituden til samme stakk i referansen",
+  "far_over_near.rms og mid_over_near.rms": "forholdet mellom RMS-amplitudene til to stakker i sonen, delt på det samme forholdet i referansen (= far_alene / near_alene)",
+  "far_over_near.per_reflektor": "median over reflektorene i sonen delt på median over reflektorene i referansen, der far/near per reflektor er sum(far*mid)/sum(near*mid) i +-16 ms etter innretting mot mid. Reflektorene er de som plukkes på fullstakken uten multipler og med Vs på trenden (samme liste for alle forklaringer)",
+  "far_over_near.per_reflektor_topp": "som over, men forholdet mellom toppamplitudene",
+  "n_reflektorer": "antall reflektorer i sonen / i referansen. Få reflektorer i sonen gjør medianene grove; RMS-målet er derfor hovedmålet"
+ },
+ "multiplenes_styrke": "modellstyrke = som FD-modellen gir dem (havbunn-R 0,40). skalert = primærer + faktor x (multipler), faktor near 0,73, mid 0,62, far 0,55, som er kopistyrken målt i de ekte stakkene delt på modellens. De samme faktorene er brukt for begge offsetsettene",
+ "myke_lag": "cellene i sonen der akustisk impedans ligger under glidende middel over 61 m: 1353-1362, 1366-1373, 1375-1399 og 1425-1435 m under havnivå (den uavhengige kontrollens definisjon)",
+ "observert_i_de_ekte_stakkene": {
+  "far_over_near": "0,48 (0,62-0,65 etter multippelfilter på stakkene)",
+  "mid_over_near": "0,94-1,00 med den første målemetoden, ca. 0,6-0,75 med den andre",
+  "near_alene, mid_alene, far_alene": "ikke målt da dette ble skrevet"
+ },
+ "slik_skilles_forklaringene": "Multipler løfter near i sonen (near_alene ca. 1,4-1,5 mot 1,1 uten) og senker far moderat. Lav Vs i de myke lagene lar near stå (ca. 1,0-1,1) og senker far kraftig. near_alene er derfor det tydeligste skillet. far_alene faller med begge (0,6-0,9) og skiller dårlig. mid_over_near skiller i de tilpassede offsetområdene (multipler ca. 0,8, lav Vs ca. 1,0).",
+ "prediksjoner": {
+  "modellens_offsetomraader": {
+   "offsetomraader": "near 150-760 m, mid 760-1760 m, far 1760-3150 m (områdene den første målingen på de ekte dataene antok)",
+   "forklaringer": {
+    "ingen_forklaring": {
+     "beskrivelse": "Ingen av forklaringene: ingen multipler fra havflaten, Vs på trenden",
+     "datasett_i_results_json": "cases.main.G_trend",
+     "near_alene": 1.147,
+     "mid_alene": 1.108,
+     "far_alene": 1.186,
+     "far_over_near": {
+      "rms": 1.035,
+      "per_reflektor": 1.067,
+      "per_reflektor_topp": 0.978
+     },
+     "mid_over_near": {
+      "rms": 0.966,
+      "per_reflektor": 1.001,
+      "per_reflektor_topp": 0.985
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "b_multipler_modellstyrke": {
+     "beskrivelse": "(b) Multipler fra havflaten, så sterke som modellen gir dem. Vs på trenden",
+     "datasett_i_results_json": "cases.main.FS_trend",
+     "near_alene": 1.445,
+     "mid_alene": 0.625,
+     "far_alene": 0.751,
+     "far_over_near": {
+      "rms": 0.52,
+      "per_reflektor": 0.373,
+      "per_reflektor_topp": 0.352
+     },
+     "mid_over_near": {
+      "rms": 0.433,
+      "per_reflektor": 0.364,
+      "per_reflektor_topp": 0.33
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "b_multipler_skalert": {
+     "beskrivelse": "(b) Multipler skalert til kopistyrken i de ekte dataene (near 0,73, mid 0,62, far 0,55 av modellens). Vs på trenden",
+     "datasett_i_results_json": "cases.main.FSs_trend",
+     "near_alene": 1.462,
+     "mid_alene": 0.768,
+     "far_alene": 0.908,
+     "far_over_near": {
+      "rms": 0.621,
+      "per_reflektor": 0.567,
+      "per_reflektor_topp": 0.588
+     },
+     "mid_over_near": {
+      "rms": 0.525,
+      "per_reflektor": 0.506,
+      "per_reflektor_topp": 0.447
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "a_myke_lag_vs07": {
+     "beskrivelse": "(a) Vs 7 % under trenden i de myke lagene i sonen. Ingen multipler",
+     "datasett_i_results_json": "cases.main.G_sb07",
+     "near_alene": 1.119,
+     "mid_alene": 0.936,
+     "far_alene": 0.869,
+     "far_over_near": {
+      "rms": 0.776,
+      "per_reflektor": 0.759,
+      "per_reflektor_topp": 0.718
+     },
+     "mid_over_near": {
+      "rms": 0.836,
+      "per_reflektor": 0.858,
+      "per_reflektor_topp": 0.852
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "a_myke_lag_vs15": {
+     "beskrivelse": "(a) Vs 15 % under trenden i de myke lagene i sonen. Ingen multipler",
+     "datasett_i_results_json": "cases.main.G_sb15",
+     "near_alene": 1.091,
+     "mid_alene": 0.765,
+     "far_alene": 0.615,
+     "far_over_near": {
+      "rms": 0.563,
+      "per_reflektor": 0.551,
+      "per_reflektor_topp": 0.518
+     },
+     "mid_over_near": {
+      "rms": 0.701,
+      "per_reflektor": 0.739,
+      "per_reflektor_topp": 0.721
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs07_multipler_modellstyrke": {
+     "beskrivelse": "(a)+(b) Vs 7 % lavere i de myke lagene og multipler med modellens styrke",
+     "datasett_i_results_json": "cases.main.FS_sb07",
+     "near_alene": 1.431,
+     "mid_alene": 0.512,
+     "far_alene": 0.616,
+     "far_over_near": {
+      "rms": 0.43,
+      "per_reflektor": 0.255,
+      "per_reflektor_topp": 0.312
+     },
+     "mid_over_near": {
+      "rms": 0.358,
+      "per_reflektor": 0.339,
+      "per_reflektor_topp": 0.26
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs07_multipler_skalert": {
+     "beskrivelse": "(a)+(b) Vs 7 % lavere i de myke lagene og skalerte multipler",
+     "datasett_i_results_json": "cases.main.FSs_sb07",
+     "near_alene": 1.444,
+     "mid_alene": 0.617,
+     "far_alene": 0.661,
+     "far_over_near": {
+      "rms": 0.458,
+      "per_reflektor": 0.372,
+      "per_reflektor_topp": 0.411
+     },
+     "mid_over_near": {
+      "rms": 0.427,
+      "per_reflektor": 0.391,
+      "per_reflektor_topp": 0.348
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs15_multipler_modellstyrke": {
+     "beskrivelse": "(a)+(b) Vs 15 % lavere i de myke lagene og multipler med modellens styrke",
+     "datasett_i_results_json": "cases.main.FS_sb15",
+     "near_alene": 1.415,
+     "mid_alene": 0.412,
+     "far_alene": 0.628,
+     "far_over_near": {
+      "rms": 0.444,
+      "per_reflektor": 0.21,
+      "per_reflektor_topp": 0.26
+     },
+     "mid_over_near": {
+      "rms": 0.291,
+      "per_reflektor": 0.249,
+      "per_reflektor_topp": 0.204
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs15_multipler_skalert": {
+     "beskrivelse": "(a)+(b) Vs 15 % lavere i de myke lagene og skalerte multipler",
+     "datasett_i_results_json": "cases.main.FSs_sb15",
+     "near_alene": 1.423,
+     "mid_alene": 0.467,
+     "far_alene": 0.541,
+     "far_over_near": {
+      "rms": 0.38,
+      "per_reflektor": 0.253,
+      "per_reflektor_topp": 0.369
+     },
+     "mid_over_near": {
+      "rms": 0.328,
+      "per_reflektor": 0.275,
+      "per_reflektor_topp": 0.243
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "a_ett_lag_vs15": {
+     "beskrivelse": "(a) Vs 15 % under trenden i ett homogent lag 1358-1390 m (det første forsøket). Ingen multipler",
+     "datasett_i_results_json": "cases.main.G_m15",
+     "near_alene": 1.143,
+     "mid_alene": 1.106,
+     "far_alene": 1.171,
+     "far_over_near": {
+      "rms": 1.024,
+      "per_reflektor": 1.077,
+      "per_reflektor_topp": 0.968
+     },
+     "mid_over_near": {
+      "rms": 0.968,
+      "per_reflektor": 0.995,
+      "per_reflektor_topp": 0.973
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "kontroll_zoeppritz_myke_lag_vs07": {
+     "beskrivelse": "Kontroll uten FD: bare primærer (Zoeppritz), Vs 7 % lavere i de myke lagene",
+     "datasett_i_results_json": "cases.main.C_sb07",
+     "near_alene": 1.067,
+     "mid_alene": 0.915,
+     "far_alene": 0.719,
+     "far_over_near": {
+      "rms": 0.674,
+      "per_reflektor": 0.626,
+      "per_reflektor_topp": 0.603
+     },
+     "mid_over_near": {
+      "rms": 0.857,
+      "per_reflektor": 0.89,
+      "per_reflektor_topp": 0.832
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "kontroll_zoeppritz_myke_lag_vs15": {
+     "beskrivelse": "Kontroll uten FD: bare primærer (Zoeppritz), Vs 15 % lavere i de myke lagene",
+     "datasett_i_results_json": "cases.main.C_sb15",
+     "near_alene": 1.038,
+     "mid_alene": 0.733,
+     "far_alene": 0.402,
+     "far_over_near": {
+      "rms": 0.387,
+      "per_reflektor": 0.361,
+      "per_reflektor_topp": 0.34
+     },
+     "mid_over_near": {
+      "rms": 0.706,
+      "per_reflektor": 0.751,
+      "per_reflektor_topp": 0.691
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "kontroll_zoeppritz_myke_lag_vs20": {
+     "beskrivelse": "Kontroll uten FD: bare primærer (Zoeppritz), Vs 20 % lavere i de myke lagene",
+     "datasett_i_results_json": "cases.main.C_sb20",
+     "near_alene": 1.022,
+     "mid_alene": 0.632,
+     "far_alene": 0.276,
+     "far_over_near": {
+      "rms": 0.27,
+      "per_reflektor": 0.245,
+      "per_reflektor_topp": 0.242
+     },
+     "mid_over_near": {
+      "rms": 0.618,
+      "per_reflektor": 0.674,
+      "per_reflektor_topp": 0.611
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    }
+   },
+   "forsinkelse_paa_forste_kopi_i_modellen_ms": {
+    "nea": 111.0,
+    "mid": 118.0,
+    "far": 131.0
+   },
+   "forsinkelse_maalt_i_de_ekte_stakkene_ms": {
+    "nea": 110,
+    "mid": 112,
+    "far": 119
+   }
+  },
+  "offsetomraader_tilpasset_forsinkelsene": {
+   "offsetomraader": "near 150-550 m, mid 575-1000 m, far 1200-1800 m (valgt slik at forsinkelsen på multippelkopiene blir som målt i de ekte stakkene: 110 / 112 / 119 ms)",
+   "forklaringer": {
+    "ingen_forklaring": {
+     "beskrivelse": "Ingen av forklaringene: ingen multipler fra havflaten, Vs på trenden",
+     "datasett_i_results_json": "cases.reallag.G_trend",
+     "near_alene": 1.116,
+     "mid_alene": 1.201,
+     "far_alene": 1.048,
+     "far_over_near": {
+      "rms": 0.939,
+      "per_reflektor": 0.93,
+      "per_reflektor_topp": 0.862
+     },
+     "mid_over_near": {
+      "rms": 1.076,
+      "per_reflektor": 1.031,
+      "per_reflektor_topp": 0.995
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "b_multipler_modellstyrke": {
+     "beskrivelse": "(b) Multipler fra havflaten, så sterke som modellen gir dem. Vs på trenden",
+     "datasett_i_results_json": "cases.reallag.FS_trend",
+     "near_alene": 1.434,
+     "mid_alene": 1.191,
+     "far_alene": 0.663,
+     "far_over_near": {
+      "rms": 0.462,
+      "per_reflektor": 0.386,
+      "per_reflektor_topp": 0.392
+     },
+     "mid_over_near": {
+      "rms": 0.831,
+      "per_reflektor": 0.817,
+      "per_reflektor_topp": 0.884
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "b_multipler_skalert": {
+     "beskrivelse": "(b) Multipler skalert til kopistyrken i de ekte dataene (near 0,73, mid 0,62, far 0,55 av modellens). Vs på trenden",
+     "datasett_i_results_json": "cases.reallag.FSs_trend",
+     "near_alene": 1.454,
+     "mid_alene": 1.218,
+     "far_alene": 0.805,
+     "far_over_near": {
+      "rms": 0.554,
+      "per_reflektor": 0.546,
+      "per_reflektor_topp": 0.446
+     },
+     "mid_over_near": {
+      "rms": 0.838,
+      "per_reflektor": 0.822,
+      "per_reflektor_topp": 0.771
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "a_myke_lag_vs07": {
+     "beskrivelse": "(a) Vs 7 % under trenden i de myke lagene i sonen. Ingen multipler",
+     "datasett_i_results_json": "cases.reallag.G_sb07",
+     "near_alene": 1.1,
+     "mid_alene": 1.127,
+     "far_alene": 0.827,
+     "far_over_near": {
+      "rms": 0.752,
+      "per_reflektor": 0.754,
+      "per_reflektor_topp": 0.7
+     },
+     "mid_over_near": {
+      "rms": 1.024,
+      "per_reflektor": 0.984,
+      "per_reflektor_topp": 0.954
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "a_myke_lag_vs15": {
+     "beskrivelse": "(a) Vs 15 % under trenden i de myke lagene i sonen. Ingen multipler",
+     "datasett_i_results_json": "cases.reallag.G_sb15",
+     "near_alene": 1.083,
+     "mid_alene": 1.05,
+     "far_alene": 0.617,
+     "far_over_near": {
+      "rms": 0.57,
+      "per_reflektor": 0.584,
+      "per_reflektor_topp": 0.541
+     },
+     "mid_over_near": {
+      "rms": 0.969,
+      "per_reflektor": 0.937,
+      "per_reflektor_topp": 0.911
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs07_multipler_modellstyrke": {
+     "beskrivelse": "(a)+(b) Vs 7 % lavere i de myke lagene og multipler med modellens styrke",
+     "datasett_i_results_json": "cases.reallag.FS_sb07",
+     "near_alene": 1.427,
+     "mid_alene": 1.152,
+     "far_alene": 0.531,
+     "far_over_near": {
+      "rms": 0.372,
+      "per_reflektor": 0.238,
+      "per_reflektor_topp": 0.304
+     },
+     "mid_over_near": {
+      "rms": 0.808,
+      "per_reflektor": 0.742,
+      "per_reflektor_topp": 0.864
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs07_multipler_skalert": {
+     "beskrivelse": "(a)+(b) Vs 7 % lavere i de myke lagene og skalerte multipler",
+     "datasett_i_results_json": "cases.reallag.FSs_sb07",
+     "near_alene": 1.444,
+     "mid_alene": 1.159,
+     "far_alene": 0.614,
+     "far_over_near": {
+      "rms": 0.425,
+      "per_reflektor": 0.384,
+      "per_reflektor_topp": 0.308
+     },
+     "mid_over_near": {
+      "rms": 0.803,
+      "per_reflektor": 0.782,
+      "per_reflektor_topp": 0.742
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs15_multipler_modellstyrke": {
+     "beskrivelse": "(a)+(b) Vs 15 % lavere i de myke lagene og multipler med modellens styrke",
+     "datasett_i_results_json": "cases.reallag.FS_sb15",
+     "near_alene": 1.418,
+     "mid_alene": 1.11,
+     "far_alene": 0.448,
+     "far_over_near": {
+      "rms": 0.316,
+      "per_reflektor": 0.083,
+      "per_reflektor_topp": 0.203
+     },
+     "mid_over_near": {
+      "rms": 0.783,
+      "per_reflektor": 0.629,
+      "per_reflektor_topp": 0.844
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "ab_vs15_multipler_skalert": {
+     "beskrivelse": "(a)+(b) Vs 15 % lavere i de myke lagene og skalerte multipler",
+     "datasett_i_results_json": "cases.reallag.FSs_sb15",
+     "near_alene": 1.432,
+     "mid_alene": 1.097,
+     "far_alene": 0.452,
+     "far_over_near": {
+      "rms": 0.316,
+      "per_reflektor": 0.215,
+      "per_reflektor_topp": 0.268
+     },
+     "mid_over_near": {
+      "rms": 0.766,
+      "per_reflektor": 0.747,
+      "per_reflektor_topp": 0.713
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "a_ett_lag_vs15": {
+     "beskrivelse": "(a) Vs 15 % under trenden i ett homogent lag 1358-1390 m (det første forsøket). Ingen multipler",
+     "datasett_i_results_json": "cases.reallag.G_m15",
+     "near_alene": 1.114,
+     "mid_alene": 1.195,
+     "far_alene": 1.049,
+     "far_over_near": {
+      "rms": 0.941,
+      "per_reflektor": 0.952,
+      "per_reflektor_topp": 0.872
+     },
+     "mid_over_near": {
+      "rms": 1.072,
+      "per_reflektor": 1.036,
+      "per_reflektor_topp": 0.992
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "kontroll_zoeppritz_myke_lag_vs07": {
+     "beskrivelse": "Kontroll uten FD: bare primærer (Zoeppritz), Vs 7 % lavere i de myke lagene",
+     "datasett_i_results_json": "cases.reallag.C_sb07",
+     "near_alene": 1.075,
+     "mid_alene": 1.029,
+     "far_alene": 0.844,
+     "far_over_near": {
+      "rms": 0.785,
+      "per_reflektor": 0.731,
+      "per_reflektor_topp": 0.746
+     },
+     "mid_over_near": {
+      "rms": 0.957,
+      "per_reflektor": 0.961,
+      "per_reflektor_topp": 0.945
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "kontroll_zoeppritz_myke_lag_vs15": {
+     "beskrivelse": "Kontroll uten FD: bare primærer (Zoeppritz), Vs 15 % lavere i de myke lagene",
+     "datasett_i_results_json": "cases.reallag.C_sb15",
+     "near_alene": 1.058,
+     "mid_alene": 0.95,
+     "far_alene": 0.609,
+     "far_over_near": {
+      "rms": 0.576,
+      "per_reflektor": 0.544,
+      "per_reflektor_topp": 0.554
+     },
+     "mid_over_near": {
+      "rms": 0.898,
+      "per_reflektor": 0.906,
+      "per_reflektor_topp": 0.891
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    },
+    "kontroll_zoeppritz_myke_lag_vs20": {
+     "beskrivelse": "Kontroll uten FD: bare primærer (Zoeppritz), Vs 20 % lavere i de myke lagene",
+     "datasett_i_results_json": "cases.reallag.C_sb20",
+     "near_alene": 1.048,
+     "mid_alene": 0.906,
+     "far_alene": 0.483,
+     "far_over_near": {
+      "rms": 0.461,
+      "per_reflektor": 0.453,
+      "per_reflektor_topp": 0.442
+     },
+     "mid_over_near": {
+      "rms": 0.864,
+      "per_reflektor": 0.877,
+      "per_reflektor_topp": 0.85
+     },
+     "n_reflektorer": [
+      4,
+      7
+     ]
+    }
+   },
+   "forsinkelse_paa_forste_kopi_i_modellen_ms": {
+    "nea": 111.0,
+    "mid": 114.0,
+    "far": 120.0
+   },
+   "forsinkelse_maalt_i_de_ekte_stakkene_ms": {
+    "nea": 110,
+    "mid": 112,
+    "far": 119
+   }
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "FS": {
+  "table": [
+   {
+    "offset": 0.0,
+    "t_primary_ray_ms": 898.9,
+    "t_peak_ms": 909.0,
+    "peak": -5.89258303229645e-06,
+    "copy_over_primary": -0.742,
+    "lag_ms": 109.0
+   },
+   {
+    "offset": 200.0,
+    "t_primary_ray_ms": 906.0,
+    "t_peak_ms": 916.0,
+    "peak": -5.788310581900102e-06,
+    "copy_over_primary": -0.755,
+    "lag_ms": 109.0
+   },
+   {
+    "offset": 400.0,
+    "t_primary_ray_ms": 926.9,
+    "t_peak_ms": 937.0,
+    "peak": -5.526873290140344e-06,
+    "copy_over_primary": -0.755,
+    "lag_ms": 107.0
+   },
+   {
+    "offset": 600.0,
+    "t_primary_ray_ms": 960.8,
+    "t_peak_ms": 971.0,
+    "peak": -5.1484232397314145e-06,
+    "copy_over_primary": -0.759,
+    "lag_ms": 105.0
+   }
+  ],
+  "info": {
+   "cfg": "FS",
+   "case": "val1",
+   "seconds": 22.9,
+   "dt_ms": 0.4363636374473572,
+   "nt": 3210,
+   "shape": [
+    751,
+    1101
+   ],
+   "z0": -1100.0,
+   "cells_with_absorbing": 1328931,
+   "finite": true,
+   "vp_max": 2200.0,
+   "vs_min_solid": 600.0,
+   "courant": 0.4800000011920929,
+   "f0": 35.0
+  }
+ },
+ "G": {
+  "table": [
+   {
+    "offset": 0.0,
+    "t_primary_ray_ms": 898.9,
+    "t_peak_ms": 909.0,
+    "peak": -5.894358041276526e-06,
+    "copy_over_primary": -0.017,
+    "lag_ms": 88.0
+   },
+   {
+    "offset": 200.0,
+    "t_primary_ray_ms": 906.0,
+    "t_peak_ms": 916.0,
+    "peak": -5.792875485347102e-06,
+    "copy_over_primary": 0.004,
+    "lag_ms": 115.0
+   },
+   {
+    "offset": 400.0,
+    "t_primary_ray_ms": 926.9,
+    "t_peak_ms": 937.0,
+    "peak": -5.540679106038823e-06,
+    "copy_over_primary": -0.0,
+    "lag_ms": 124.0
+   },
+   {
+    "offset": 600.0,
+    "t_primary_ray_ms": 960.8,
+    "t_peak_ms": 971.0,
+    "peak": -5.177852854781895e-06,
+    "copy_over_primary": 0.0,
+    "lag_ms": 85.0
+   }
+  ],
+  "info": {
+   "cfg": "G",
+   "case": "val1",
+   "dx": 2.0,
+   "seconds": 61.6,
+   "dt_ms": 0.4363636374473572,
+   "nt": 3210,
+   "shape": [
+    751,
+    581
+   ],
+   "z0": -60.0,
+   "cells_with_absorbing": 813611,
+   "finite": true,
+   "vp_max": 2200.0,
+   "vs_min_solid": 600.0,
+   "courant": 0.4800000011920929,
+   "f0": 35.0,
+   "threads": "6",
+   "host": "9c964c5dfdcf"
+  }
+ },
+ "primary_FS_vs_G_zero_offset": {
+  "corr": 0.9999999834697395,
+  "amp_ratio": 0.999698863053848
+ },
+ "expected": {
+  "copy_zero_offset": -0.757,
+  "lag_ms": 109.5,
+  "note": "-2 R_seabed (0.394) x 2D spreading 0.96; G: no copy"
+ }
+}
